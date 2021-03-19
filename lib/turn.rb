@@ -38,6 +38,7 @@ def position_taken?(board, index)
     false
   elsif board[index] == "X" || board[index] == "O"
     true
+    puts"#{index + 1} is already taken, Please make another move."
   end
 end
 
