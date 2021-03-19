@@ -43,5 +43,5 @@ end
 
 #Make move with provided coordinates
 def move(board, index, player = "X")
-    board[index] = player
+  board[index] = player
 end
